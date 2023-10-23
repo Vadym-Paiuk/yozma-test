@@ -1,0 +1,17 @@
+{
+  "name": "acf/newsletter",
+  "title": "Newsletter",
+  "description": "A custom newsletter block that uses ACF fields.",
+  "style": "file:./styles.css",
+  "script": "newsletter",
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["newsletter"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}
