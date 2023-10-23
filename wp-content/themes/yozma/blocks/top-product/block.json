@@ -1,0 +1,16 @@
+{
+  "name": "acf/top-product",
+  "title": "Top Product",
+  "description": "A custom Top Product block that uses ACF fields.",
+  "style": "file:./styles.css",
+  "category": "product",
+  "icon": "admin-comments",
+  "keywords": ["product", "top"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "template.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

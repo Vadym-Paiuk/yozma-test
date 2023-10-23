@@ -1,0 +1,15 @@
+.top-product{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.top-product .top-product__title{
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1.2;
+	color: #000;
+	display: flex;
+	justify-content: center;
+}
